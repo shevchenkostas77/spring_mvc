@@ -13,6 +13,8 @@ Your name: ${employee.name}
 Your surname: ${employee.surname}
 <br>
 Your salary: ${employee.salary}
+<br>
+Your deparment: ${employee.department}
 
 <%--Your name: ${param.employeeName}--%>
 
