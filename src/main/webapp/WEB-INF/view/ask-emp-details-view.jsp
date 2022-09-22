@@ -29,10 +29,23 @@
 
     Which car do you want?
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
-<%--    BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
-<%--    Audi <form:radiobutton path="carBrand" value="Audi"/>--%>
-<%--    Mercedes-Benz <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
     <br><br>
+
+    Foreign Language (s)
+    <form:checkboxes path="languages" items="${employee.languageList}"/>
+    <br><br>
+
+<%--    Foreign Language (s)--%>
+<%--    EN <form:checkbox path="languages" value="English"/>--%>
+<%--    DE <form:checkbox path="languages" value="Deutch"/>--%>
+<%--    FR <form:checkbox path="languages" value="French"/>--%>
+<%--    <br><br>--%>
+
+<%--    Which car do you want?--%>
+<%--     BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
+<%--     Audi <form:radiobutton path="carBrand" value="Audi"/>--%>
+<%--     Mercedes-Benz <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
+<%--    <br><br>--%>
 
 <%--    <form:option value="Information Technology" label="IT"/>--%>
 <%--    <form:option value="Human Resources" label="HR"/>--%>
