@@ -14,18 +14,29 @@
     Name <form:input path="name"
                      placeholder="Write your name"/>
     <br><br>
+
     Surname <form:input path="surname"
                         placeholder="Write your surname"/>
     <br><br>
+
     Salary <form:input path="salary"/>
     <br><br>
+
     Department <form:select path="department">
     <form:options items="${employee.deparments}"/>
+    </form:select>
+    <br><br>
+
+    Which car do you want?
+    <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
+<%--    BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
+<%--    Audi <form:radiobutton path="carBrand" value="Audi"/>--%>
+<%--    Mercedes-Benz <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
+    <br><br>
+
 <%--    <form:option value="Information Technology" label="IT"/>--%>
 <%--    <form:option value="Human Resources" label="HR"/>--%>
 <%--    <form:option value="Sales" label="Sales"/>--%>
-    </form:select>
-    <br><br>
 
     <input type="submit" value="OK">
 
