@@ -38,6 +38,11 @@
     <form:checkboxes path="languages" items="${employee.languageList}"/>
     <br><br>
 
+    Phone number <form:input path="phoneNumber"
+                     placeholder="Write your phone"/>
+    <form:errors path="phoneNumber"/>
+    <br><br>
+
 <%--    Foreign Language (s)--%>
 <%--    EN <form:checkbox path="languages" value="English"/>--%>
 <%--    DE <form:checkbox path="languages" value="Deutch"/>--%>

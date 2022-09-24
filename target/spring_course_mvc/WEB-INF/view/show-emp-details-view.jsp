@@ -28,6 +28,8 @@ Language(s):
     </c:forEach>
 
 </ul>
+<br>
+Your phone: ${employee.phoneNumber}
 
 <%--Your name: ${param.employeeName}--%>
 
