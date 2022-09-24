@@ -1,5 +1,6 @@
 package com.shevchenkostas77.spring.mvc;
 
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +9,7 @@ public class Employee {
 //    @Size(min = 2, message = "name must be at least two characters long")
     @Size(min = 2)
     private String name;
+    @NotEmpty(message = "surname is required field")
     private String surname;
     private int salary;
     private String department;

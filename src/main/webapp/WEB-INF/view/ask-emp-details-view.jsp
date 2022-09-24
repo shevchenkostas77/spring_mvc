@@ -18,6 +18,7 @@
 
     Surname <form:input path="surname"
                         placeholder="Write your surname"/>
+    <form:errors path="surname"/>
     <br><br>
 
     Salary <form:input path="salary"/>
