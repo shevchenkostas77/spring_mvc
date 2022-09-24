@@ -13,6 +13,7 @@
 
     Name <form:input path="name"
                      placeholder="Write your name"/>
+    <form:errors path="name"/>
     <br><br>
 
     Surname <form:input path="surname"
