@@ -43,6 +43,11 @@
     <form:errors path="phoneNumber"/>
     <br><br>
 
+    Email <form:input path="email"
+                             placeholder="Write your email"/>
+    <form:errors path="email"/>
+    <br><br>
+
 <%--    Foreign Language (s)--%>
 <%--    EN <form:checkbox path="languages" value="English"/>--%>
 <%--    DE <form:checkbox path="languages" value="Deutch"/>--%>

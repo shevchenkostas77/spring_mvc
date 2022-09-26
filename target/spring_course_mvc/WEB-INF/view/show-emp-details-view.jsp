@@ -30,6 +30,9 @@ Language(s):
 </ul>
 <br>
 Your phone: ${employee.phoneNumber}
+<br>
+Email: ${employee.email}
+
 
 <%--Your name: ${param.employeeName}--%>
 
